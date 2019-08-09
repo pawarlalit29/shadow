@@ -21,7 +21,7 @@
         <attr name="backgroundColor" format="color"/>
     </declare-styleable>
     <declare-styleable name="ShadowView_Layout">
-        <attr name="layout_gravity">
+        <attr name="view_gravity">
             <flag name="top"
                   value="0x30"/>
             <flag name="bottom"

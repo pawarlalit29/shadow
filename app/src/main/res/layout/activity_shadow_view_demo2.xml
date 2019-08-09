@@ -34,7 +34,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:layout_gravity="center"
+                app:view_gravity="center"
                 android:text="This library draw android view shadow by ShadowLayer. You may don't like the CardView's black shadow which we can't change it's color."
                 android:textStyle="bold"/>
         </com.loopeer.shadow.ShadowView>

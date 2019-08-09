@@ -468,7 +468,7 @@ open class ShadowView @JvmOverloads constructor(context: Context?, attributeSet:
 
         constructor(c: Context, attrs: AttributeSet?) : super(c, attrs) {
             val a = c.obtainStyledAttributes(attrs, R.styleable.ShadowView_Layout)
-            gravity = a.getInt(R.styleable.ShadowView_Layout_layout_gravity, UNSPECIFIED_GRAVITY)
+            gravity = a.getInt(R.styleable.ShadowView_Layout_view_gravity, UNSPECIFIED_GRAVITY)
             a.recycle()
         }
 
